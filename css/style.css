@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #F8F1E3;
+  line-height: 1.1;
+}
+
+p{
+margin-bottom: .25rem;
+line-height: 1.3;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+img{
+  width: 100%;
+}
+/* Utility */
+.container{
+  margin: auto;
+  padding: 0px 1rem;
+}
+
+.list a{
+  color: #C3CED0;
+
+  transition: 0.5s;
+ }
+
+.list a:hover{
+  color: white;
+  padding-bottom: 10px;
+  border-bottom:1px solid whitesmoke;
+}
+
+.l-heading{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.py-1{padding: 1rem 0}
+.py-2{padding: 2rem 0 }
+.py-3{padding: 3rem 0}
+.p-1{padding: 1rem}
+.p-2{padding: 2rem}
+.p-3{padding: 3rem}
+
+.meta{
+  font-weight: bold;
+}
+
+.btn{
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+
+.btn-primary:hover{
+  background: rgb(23, 23, 24);
+}
+
+.btn-primary{
+  background: #383B43;
+  transition: 0.4s ease-in;
+}
+
+/* Main-nav */
+#main-nav{
+  background: #383B43;
+  padding-top: 1rem;
+}
+
+#main-nav .container{
+display: grid;
+grid-template-columns: 1fr 2fr;
+padding: 1rem;
+align-items: center;
+}
+
+#main-nav .logo{
+width: 45%;
+}
+
+#main-nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+#main-nav ul li{
+  padding: 1rem;
+  margin-right: 0.75rem;
+}
+
+#main-nav ul li a{
+ font-size: 1.3rem;
+}
+
+/* Section: Fav Novel */
+
+#fav-novel .novel-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#fav-novel .card-img{
+  width: 40vw;
+  padding: 2rem;
+  justify-self: center;
+}
+
+#fav-novel .card-content{
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#fav-novel .card-content p{
+  margin-top: 1rem;
+}
+
+#fav-novel .card-content div{
+  margin-top: 2rem;
+}
