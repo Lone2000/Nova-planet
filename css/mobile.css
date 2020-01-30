@@ -1,0 +1,53 @@
+/* Navigation */
+#main-nav .container{
+  grid-template-columns: 1fr;
+}
+
+#main-nav ul,
+#main-nav a{
+  justify-self: center;
+  text-align: center;
+}
+
+/* Section: Fav */
+#fav-novel .card-content{
+  font-size: 1.15rem;
+  text-align: left;
+}
+#fav-novel .card-img{
+  align-self: center;
+  padding: 0;
+}
+
+/* Novel Container */
+#novel .novel-img{
+  align-self: center;
+}
+
+/* Media Query for mobiles 600px */
+@media(max-width: 600px){
+  .l-heading{
+    font-size: 2.5rem;
+  }
+  #fav-novel .novel-card{
+    grid-template-columns: 1fr;
+  }
+  #fav-novel .card-img{
+    width: 80vw;
+  }
+  #fav-novel .card-content{
+    text-align: center;
+  }
+
+  #novel .novelframe{
+    grid-template-columns: 1fr;
+  }
+
+  #novel .novelframe .novel-content{
+    padding: 0.55rem;
+    font-size: 1.35rem;
+  }
+  #novel .novelframe .novel-content h2{
+    line-height: 1.1;
+  }
+}

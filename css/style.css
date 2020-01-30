@@ -51,12 +51,12 @@ img{
   font-size: 3rem;
 }
 
-.py-1{padding: 1rem 0}
-.py-2{padding: 2rem 0 }
-.py-3{padding: 3rem 0}
-.p-1{padding: 1rem}
-.p-2{padding: 2rem}
-.p-3{padding: 3rem}
+.py-1{padding: 1rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+.p-1{padding: 1rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
 
 .meta{
   font-weight: bold;
@@ -76,6 +76,11 @@ img{
   transition: 0.4s ease-in;
 }
 
+.novel-container{
+  border-style: solid;
+  border-width: 25px 1px 8px 1px;
+  border-radius: 5px;
+}
 /* Main-nav */
 #main-nav{
   background: #383B43;
@@ -131,4 +136,35 @@ width: 45%;
 
 #fav-novel .card-content div{
   margin-top: 2rem;
+}
+
+
+/* Novel Container */
+
+#novel .novelframe{
+border-bottom: 1px dotted #333;
+padding-bottom: 30px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+margin-top: 1rem;
+}
+
+#novel .novelframe .novel-content{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+#novel .novelframe .novel-content a{
+color: blue;
+}
+
+/* Footer */
+
+.footer-container{
+  background: #383B43;
+  text-align: center;
+  padding: 3rem;
+}
+
+.footer-content{
+  font-size: 1.4rem;
 }
