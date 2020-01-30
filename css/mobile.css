@@ -41,6 +41,7 @@
 
   #novel .novelframe{
     grid-template-columns: 1fr;
+    justify-content: center;
   }
 
   #novel .novelframe .novel-content{
