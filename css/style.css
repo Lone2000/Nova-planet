@@ -84,7 +84,6 @@ img{
 /* Main-nav */
 #main-nav{
   background: #383B43;
-  padding-top: 1rem;
 }
 
 #main-nav .container{
@@ -126,16 +125,17 @@ width: 45%;
 
 #fav-novel .card-content{
   padding: 2rem;
-  text-align: center;
   font-size: 1.3rem;
 }
 
 #fav-novel .card-content p{
   margin-top: 1rem;
+  text-align: left;
 }
 
 #fav-novel .card-content div{
   margin-top: 2rem;
+  text-align: center;
 }
 
 
